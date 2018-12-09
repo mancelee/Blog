@@ -59,19 +59,19 @@ if not os.path.exists(picture):
 python3 /home/python/start.py
 ``` 
 
-#### 2. 拷贝到/etc/init.d/下
+##### 2. 拷贝到/etc/init.d/下
 
 ```
 sudo cp ./start_test.sh /etc/init.d/
 ```
 
-#### 3. 设置权限
+##### 3. 设置权限
 
 ```
 sudo chmod +x start_test.sh
 ```
 
-#### 4. 将脚本添加到启动脚本
+##### 4. 将脚本添加到启动脚本
 执行如下指令，在这里90表明一个优先级，越高表示执行的越晚
 
 ```
